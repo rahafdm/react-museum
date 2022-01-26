@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200;300;400;500;600;700&family=Caveat:wght@400;600&family=Vujahday+Script&display=swap');
+
+.heroA {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img7.jpg") center/cover no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -10;
+}
+
+.formBoxA {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 8% auto;
+    background: rgba(255, 255, 255, 0.705);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buttonBoxA {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggleBtnA {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    background: linear-gradient(to right, #d11609de, #ffac06a6);
+    color: rgba(14, 13, 13, 0.966);
+    font-weight: normal;
+    border-radius: 30px;
+    font-family: 'Amiri', serif;
+    padding-right: 66px;
+}
+
+
+
+.inputGroupA {
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.inputFieldA {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+button.submitBtnA {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 4%;
+    margin-right: 5%;
+    background: linear-gradient(to right, #d11609de, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+}
+
+.checkBoxA {
+    margin: 30px 10px 30px 0;
+
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    margin-right: 5px;
+}
